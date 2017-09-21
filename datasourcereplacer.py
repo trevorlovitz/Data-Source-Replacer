@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ---------------------------------------------------------------------------
 # basemap.py
-# This script will update all the base map templates for print and web.
+# This script automates data source updates for unique feature classes in a set of MXDs.
 #
 # C:\Python27\ArcGIS10.4\python.exe featureclassreplacer.py
 #
@@ -115,66 +115,6 @@ mxds = {
          "url":"https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyclion_",
          "name":"LION"
       }
-   ]
-}
-
-features = {
-   "list":[
-      {
-         "origin":"Database Connections\DOTGISSQL01_GISGRID.sde\GISGRID.GISADMIN.CARTOGRAPHIC\GISGRID.GISADMIN.Airport_Points",
-         "lion_dependent":"false",
-         "name":"Airport_Points"
-      },
-      {
-         "origin":"Database Connections\DOTGISSQL01_GISGRID.sde\GISGRID.GISADMIN.CARTOGRAPHIC\GISGRID.GISADMIN.Jamacia_Bay_Polygon",
-         "lion_dependent":"false",
-         "name":"Jamacia_Bay_Polygon"
-      },
-      {
-         "origin":"Database Connections\DOTGISSQL01_GISGRID.sde\GISGRID.GISADMIN.CARTOGRAPHIC\GISGRID.GISADMIN.Neighborhood_Points",
-         "lion_dependent":"false",
-         "name":"Neighborhood_Points"
-      },
-      {
-         "origin":"Database Connections\DOTGISSQL01_GISGRID.sde\GISGRID.GISADMIN.CARTOGRAPHIC\GISGRID.GISADMIN.NYC_County_Borders",
-         "lion_dependent":"false",
-         "name":"NYC_County_Borders"
-      },
-      {
-         "origin":"Database Connections\DOTGISSQL01_GISGRID.sde\gisgrid.GISADMIN.LION\GISGRID.GISADMIN.LION_",
-         "lion_dependent":"true",
-         "name":"LION_"
-      },
-      {
-         "origin":"Database Connections\DOTGISSQL01_GISGRID.sde\gisgrid.GISADMIN.LION\GISGRID.GISADMIN.TAMED_LION_",
-         "lion_dependent":"true",
-         "name":"TAMED_LION_"
-      },
-      {
-         "origin":"Database Connections\DOTGISSQL01_GISGRID.sde\gisgrid.GISADMIN.BOUNDARIES\GISGRID.GISADMIN.nybb_",
-         "lion_dependent":"true",
-         "name":"nybb_"
-      },
-      {
-         "origin":"Database Connections\DOTGISSQL01_GISGRID.sde\gisgrid.GISADMIN.PLANIMETRICS\GISGRID.GISADMIN.BUILDING_FOOTPRINT_0716",
-         "lion_dependent":"false",
-         "name":"BUILDING_FOOTPRINT_0716"
-      },
-      {
-         "origin":"Database Connections\DOTGISSQL01_GISGRID.sde\gisgrid.GISADMIN.PLANIMETRICS\gisgrid.GISADMIN.HYDROGRAPHY",
-         "lion_dependent":"true",
-         "name":"V_SSS_SEGMENTRATING_1"
-      },
-      {
-         "origin":"Database Connections\DOTGISSQL01_GISGRID.sde\gisgrid.GISADMIN.PLANIMETRICS\gisgrid.GISADMIN.HYDROGRAPHY_LINES",
-         "lion_dependent":"false",
-         "name":"HYDROGRAPHY_LINES"
-      },
-      {
-         "origin":"Database Connections\DOTGISSQL01_GISGRID.sde\gisgrid.GISADMIN.PLANIMETRICS\GISGRID.GISADMIN.OPEN_SPACE_NO_PARK_",
-         "lion_dependent":"true",
-         "name":"OPEN_SPACE_NO_PARK_"
-      },
    ]
 }
 
